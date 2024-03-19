@@ -34,7 +34,7 @@
  ```json
  {
      "token": "YOUR_DISCORD_BOT_TOKEN",
-     "serverId": "ID_OF_SERVER";,
+     "serverId": "ID_OF_SERVER",
      "channel_id": "YOUR_DISCORD_CHANNEL_ID",
      "targetUserId" : "ID_OF_DISCORD_USER",
  }

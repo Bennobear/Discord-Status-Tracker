@@ -1,11 +1,12 @@
 #!/usr/bin/node node
 
 const { Client, GatewayIntentBits } = require("discord.js");
+const config = require("./config.json");
 
-const token = "BOT_TOKEN";
-const serverId = "ID_OF_SERVER";
-const channelId = "ID_OF_CHANNEL_TO_POST_STATUS";
-const targetUserId = "ID_OF_DISCORD_USER";
+const token = config.token;
+const serverId = config.serverId;
+const channelId = config.channel_id;
+const targetUserId = config.targetUserId;
 
 const client = new Client({
   intents: [
